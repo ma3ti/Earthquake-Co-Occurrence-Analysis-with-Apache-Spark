@@ -250,15 +250,7 @@ Required software:
 
 * Scala
 * sbt
-* Google Cloud SDK
-* Google Cloud Storage
-* Google Cloud Dataproc
-
-Authentication:
-
-```bash
-gcloud auth login
-```
+* Google Cloud
 
 ---
 
@@ -414,7 +406,23 @@ To reduce computational overhead:
 
 The objective is to study the impact of cluster size and partition count on execution time and scalability.
 
----
+
+# Summary of Results
+
+This table summarizes the performance evaluation conducted for the project report.
+
+| Workers | Total Cores | Partitions | Execution Time (min) |
+|---------|-------------|------------|----------------------|
+| 4       | 16          | Default    |                      |
+| 4       | 16          | 16         |                      |
+| 4       | 16          | 32         |                      |
+| 3       | 12          | Default    |                      |
+| 3       | 12          | 12         |                      |
+| 3       | 12          | 24         |                      |
+| 2       | 8           | Default    |                      |
+| 2       | 8           | 8          |                      |
+| 2       | 8           | 16         |                      |
+
 
 # Author
 
