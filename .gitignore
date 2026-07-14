@@ -1,3 +1,17 @@
+# Datasets (too large for the repo — provided with the assignment)
 *.zip
 *.csv
 Datasets/Datasets/
+
+# sbt / Scala build output (regenerated with `sbt clean assembly`)
+target/
+project/target/
+project/project/
+.bsp/
+
+# Local tooling and OS files
+.claude/
+.DS_Store
+.idea/
+.vscode/
+config-classes/
