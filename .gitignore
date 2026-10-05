@@ -10,8 +10,8 @@ project/project/
 .bsp/
 
 # Local tooling and OS files
-.claude/
 .DS_Store
 .idea/
 .vscode/
 config-classes/
+
